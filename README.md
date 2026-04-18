@@ -3,7 +3,7 @@ Bridge D5 to start brute force with 0.4 second delay in between submissions. D6 
 # Update Instructions
 Replace main.py currently on the device to the updated main.py included in the releases.
 # First time setup
-#- Note - this setup uses a seeed studio XIAO-RP2040, other devices are not guaranteed to work
+##### Note - this setup uses a seeed studio XIAO-RP2040, other devices are not guaranteed to work
 ## Step 1: Install CircuitPython on the XIAO RP2040
 Download the latest stable CircuitPython UF2 for your board:
 https://circuitpython.org/board/seeeduino_xiao_rp2040/
