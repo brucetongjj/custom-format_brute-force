@@ -25,5 +25,5 @@ Inside the unzipped folder you will find a lib folder.
 Copy the entire adafruit_hid folder from the bundle’s lib folder into the lib folder on your CIRCUITPY drive.
 (Create the lib folder on CIRCUITPY if it doesn’t exist.)
 
-Step 3: Add the code
+## Step 3: Add the code
 On the CIRCUITPY drive, replace the file code.py with the code published in the releases.
