@@ -1,5 +1,17 @@
-# V2.
-Bridge D5 to start brute force with 0.4 second delay in between submissions. D6 to stop. D7 and D9 to cycle through the 5 characters to edit starting position, and D8 + D10 to change the character (up and down).
+# V3 - Mirror Branching Brute-Forcer
+Default starting code: 50aaa (true middle of 00-99 and aaa-zzz)
+## Features
+Starts from the middle (50aaa) by default and branches outwards symmetrically.
+Supports full mirror branching for both numbers and letters.
+When you start from a specific code (e.g. 48zzz), it begins exactly there, then goes to its mirror, and continues branching outwards.
+Keeps the slow 0.4 second delay between each submission as requested.
+## Button Controls
+D5 → Start brute force (mirror branching outwards from current code)
+D6 → Stop typing immediately
+D7 → Previous position (cycle left through the 5 characters)
+D9 → Next position (cycle right through the 5 characters)
+D8 → Decrease the character at current position (down)
+D10 → Increase the character at current position (up)
 # Update Instructions
 Replace main.py currently on the device to the updated main.py included in the releases.
 # First time setup
